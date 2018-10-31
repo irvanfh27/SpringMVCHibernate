@@ -506,8 +506,6 @@
 <!-- <script src="https://code.highcharts.com/highcharts-more.js"> </script> -->
 <script src="assets/js/id-all.js"></script>
 <!-- <script src="resources/assets/css/provinsi.json"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js"></script>
-
 <!-- <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/export-data.js"></script>  -->
     

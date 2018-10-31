@@ -14,29 +14,31 @@
     <style>
         #container {
             height: 500px; 
-            min-width: 310px; 
+            min-width: 650px; 
             max-width: 800px; 
             margin: 0 auto; 
         }
-        .loading {
-            margin-top: 10em;
-            text-align: center;
-            color: gray;
-        }
-        .grid {
+        .item1 { grid-area: leftbar; }
+        .item2 { grid-area: main; }
+        .item3 { grid-area: rightbar; }
+        
+        
+        .grid-container {
             display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            grid-template-rows: 100%;
-        }
-        
-        .item1 {
-            background-color: lime;
-        }
-        
-        .item2 {
-            background-color: yellow;
-            grid-column: span 2 / 7;
+            grid-template-areas:
+            'leftbar leftbar main main rightbar rightbar'
+            'leftbar leftbar main main rightbar rightbar'
+            'leftbar leftbar main main rightbar rightbar';
+            grid-gap: 10px;
             
+            padding: 10px;
+            justify-content: center;
+        }
+        .grid-container > div {
+            
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
         }
         
     </style>
@@ -329,9 +331,9 @@
                     }
                 },
                 "value": 1.5
-                          
+                
             }
-          ];            
+            ];            
             
             
             // Initiate the chart
@@ -384,7 +386,7 @@
                 mapNavigation: {
                     enabled: true,
                     buttonOptions: {
-                        verticalAlign: 'bottom'
+                        verticalAlign: 'top'
                     }
                 },
                 labels:{
@@ -444,18 +446,18 @@
                 }]
             });
         });
-      
+        
         function getImageUrl(name) {
             return "url(https://www.highcharts.com/samples/graphics/sun.png)";
         }
         
     </script>
-    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/map.js"></script>
+    <script src="https://code.highcharts.com/highcharts-3d.js"></script>
     <script src="assets/js/provinsi/ace.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js"></script>
-    <script src = "https://code.highcharts.com/highcharts.js"></script>  
-    <script src = "https://code.highcharts.com/highcharts-more.js"></script> 
-    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    
     
 </head>
 <body>
@@ -465,15 +467,125 @@
             
         </div>
     </div> -->
-
-    <div id ="container">
+    
+    <div class="grid-container">
+        <div class="item1">
+            <div id="chartmodal1" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+        </div>
+        <div class="item2">
+            <div id ="container"></div>
+        </div>
+        <div class="item3">
+            <div id="charts" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+        </div>  
     </div>
+    
     
     <div class="navbar navbar-default navbar-fixed-bottom footer-bottom">
         <div class="container text-center">
             <p class="text-center">Copyright &copy; 2016,  DTC. Developed by <a href="https://ilmu-detil.blogspot.com/">Pusat Ilmu</a></p>
         </div>
     </div>
+    <!-- Start 3D Chart -->
+    <script>
+        Highcharts.chart('chartmodal1', {
+            chart: {
+                type: 'column',
+                options3d: {
+                    enabled: true,
+                    alpha: 10,
+                    beta: 25,
+                    depth: 70
+                },
+                backgroundColor:'rgba(255, 255, 255, 0.0)'
+            },
+            title: {
+                text: null
+            },
+            subtitle: {
+                text: null
+            },
+            plotOptions: {
+                column: {
+                    depth: 25
+                }
+            },
+            xAxis: {
+                categories: Highcharts.getOptions().lang.shortMonths,
+                labels: {
+                    skew3d: true,
+                    style: {
+                        fontSize: '16px'
+                    }
+                }
+            },
+            yAxis: {
+                title: {
+                    text: null
+                }
+            },
+            series: [{
+                showInLegend: false,    
+                name: 'Sales',
+                data: [2, 3, null, 4, 0, 5, 1, 4, 6, 3]
+            }]
+        });
+        
+    </script>
+    <!-- End 3D Chart -->
+    <!--Start Pie Chart -->
+    <script>
+        Highcharts.chart('charts', {
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie'
+            },
+            title: {
+                text: 'Browser market shares in January, 2018'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: false
+                    },
+                    showInLegend: true
+                }
+            },
+            series: [{
+                name: 'Brands',
+                colorByPoint: true,
+                data: [{
+                    name: 'Chrome',
+                    y: 61.41,
+                    sliced: true,
+                    selected: true
+                }, {
+                    name: 'Internet Explorer',
+                    y: 11.84
+                }, {
+                    name: 'Firefox',
+                    y: 10.85
+                }, {
+                    name: 'Edge',
+                    y: 4.67
+                }, {
+                    name: 'Safari',
+                    y: 4.18
+                }, {
+                    name: 'Other',
+                    y: 7.05
+                }]
+            }]
+        });
+    </script>
+    <!-- End Pie Chart -->
 </body>
 </html>
 
