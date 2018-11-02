@@ -87,7 +87,7 @@
             {
                 // Aceh
                 "hc-key": "id-ac",
-                color: "red",
+                color: "#64dd17",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -99,7 +99,7 @@
             {
                 // Sumatera Utara
                 "hc-key": "id-su",
-                color: "darkgreen",
+                color: "#76ff03",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -111,7 +111,7 @@
             {
                 // Sumatera Barat
                 "hc-key": "id-sb",
-                color: "#42a5f5",
+                color: "#00e676",
                 "value": 4.84,
                 "detail": "sumbar.jsp"
             },
@@ -120,7 +120,7 @@
                 "hc-key": "id-ri",
                 "value": 5.54,
                 "detail": "riau.jsp",
-                color: "#0077c2"
+                color: "#ccff90"
                 
             },
             {
@@ -128,7 +128,7 @@
                 "hc-key": "id-kr",
                 "value": 1.69,
                 "detail": "kepriau.jsp",
-                color: "#fdd835"
+                color: "#00c853"
                 
             },
             {

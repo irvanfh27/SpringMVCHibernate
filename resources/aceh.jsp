@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,10 +50,10 @@
                 
                 "KABKOTNO" : "1101",
                 "KABKOT" : "SIMEULUE",
-                color: "red",
+                color: "#00B0FF",
                 states: {
                     hover: {
-                        color: '#BADA55'
+                        color: '#0091EA'
                     }
                 },
                 "value": 1.5
@@ -64,10 +63,10 @@
                 
                 "KABKOTNO" : "1102",
                 "KABKOT" : "ACEH SINGKIL",
-                color: "green",
+                color: "#FF6F00",
                 states: {
                     hover: {
-                        color: '#BADA55'
+                        color: '#00E5FF'
                     }
                 },
                 "value": 1.5
@@ -78,7 +77,7 @@
                 
                 "KABKOTNO" : "1103",
                 "KABKOT" : "ACEH SELATAN",
-                color: "yellow",
+                color: "#FFA000",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -91,7 +90,7 @@
                 
                 "KABKOTNO" : "1104",
                 "KABKOT" : "ACEH TENGGARA",
-                color: "blue",
+                color: "#FFB300",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -104,7 +103,7 @@
                 
                 "KABKOTNO" : "1105",
                 "KABKOT" : "ACEH TIMUR",
-                color: "grey",
+                color: "#FFCC80",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -116,7 +115,7 @@
                 
                 "KABKOTNO" : "1106",
                 "KABKOT" : "ACEH Tengah",
-                color: "pink",
+                color: "#81D4FA",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -129,7 +128,7 @@
                 
                 "KABKOTNO" : "1107",
                 "KABKOT" : "ACEH BARAT",
-                color: "pink",
+                color: "#2196F3",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -143,7 +142,7 @@
                 
                 "KABKOTNO" : "1108",
                 "KABKOT" : "ACEH BESAR",
-                color: "blue",
+                color: "#304FFE",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -155,7 +154,7 @@
                 
                 "KABKOTNO" : "1109",
                 "KABKOT" : "PIDIE",
-                color: "grey",
+                color: "#448AFF",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -179,7 +178,7 @@
                 
                 "KABKOTNO" : "1111",
                 "KABKOT" : "ACEH UTARA",
-                color: "pink",
+                color: "#6200EA",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -191,7 +190,7 @@
                 
                 "KABKOTNO" : "1112",
                 "KABKOT" : "ACEH BARAT DAYA",
-                color: "green",
+                color: "#FFC107",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -203,7 +202,7 @@
                 
                 "KABKOTNO" : "1113",
                 "KABKOT" : "GAYO LUES",
-                color: "pink",
+                color: "#F9A825",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -215,7 +214,7 @@
                 
                 "KABKOTNO" : "1114",
                 "KABKOT" : "ACEH TAMIANG",
-                color: "red",
+                color: "#FFD54F",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -227,7 +226,7 @@
                 
                 "KABKOTNO" : "1115",
                 "KABKOT" : "NAGAN RAYA",
-                color: "red",
+                color: "#42A5F5",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -239,7 +238,7 @@
                 
                 "KABKOTNO" : "1116",
                 "KABKOT" : "ACEH JAYA",
-                color: "pink",
+                color: "#1E88E5",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -251,7 +250,7 @@
                 
                 "KABKOTNO" : "1117",
                 "KABKOT" : "BENER MERIAH",
-                color: "pink",
+                color: "#00E5FF",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -263,7 +262,7 @@
                 
                 "KABKOTNO" : "1118",
                 "KABKOT" : "PIDIE JAYA",
-                color: "red",
+                color: "#64B5F6",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -276,7 +275,7 @@
                 
                 "KABKOTNO" : "1171",
                 "KABKOT" : "BANDA ACEH",
-                color: "yellow",
+                color: "#00B0FF",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -288,7 +287,7 @@
                 
                 "KABKOTNO" : "1172",
                 "KABKOT" : "SABANG",
-                color: "yellow",
+                color: "#2962FF ",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -312,7 +311,7 @@
                 
                 "KABKOTNO" : "1174",
                 "KABKOT" : "LHOKSEUMAWE",
-                color: "yellow",
+                color: "#7986CB",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -324,7 +323,7 @@
                 
                 "KABKOTNO" : "1175",
                 "KABKOT" : "SUBULUSSALAM",
-                color: "pink",
+                color: "#FF8F00",
                 states: {
                     hover: {
                         color: '#BADA55'
