@@ -6,9 +6,9 @@
     <meta name="author" content="ilmu-detil.blogspot.com">
     <title>Display Population By Map</title>
     <!-- Bagian css -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/ilmudetil.css">
-    <script src="assets/js/jquery-1.10.1.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/ilmudetil.css">
+    <script src="../assets/js/jquery-1.10.1.min.js"></script>
     
     <style>
         #container {
@@ -88,11 +88,11 @@
         .close:hover {
             background: #00d9ff;
         }
+        
     </style>
     <script>
         $(function () {
             var data = [
-            
             
             {
                 
@@ -106,7 +106,6 @@
                 },
                 "value": 1.5,
                 "detail" : "#simeulue"
-
             },
             
             {
@@ -198,8 +197,7 @@
                         color: '#BADA55'
                     }
                 },
-                "value": 1.5,
-                "detail" :"#acehbesar"
+                "value": 1.5
             },
             {
                 
@@ -420,7 +418,6 @@
                                     // location.href = '${pageContext.request.contextPath}/penduduk';// + this.options.lukkey;
                                     // alert(this.KABKOT);
                                     location.href =  this.detail;
-
                                 }
                             }
                         }
@@ -508,7 +505,7 @@
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/maps/modules/map.js"></script>
     <script src="https://code.highcharts.com/highcharts-3d.js"></script>
-    <script src="assets/js/provinsi/ace.js"></script>
+    <script src="../assets/js/provinsi/ace.js"></script>
     
     
 </head>
@@ -522,17 +519,17 @@
     
     <div class="grid-container">
         <div class="item1">
-            <div id="chart1" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+            <div id="chartmodal1" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
         </div>
         <div class="item2">
             <div id ="container"></div>
         </div>
         <div class="item3">
-            <div id="chart2" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+            <div id="charts" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
         </div>  
     </div>
-    
-    <div id="acehbesar" class="modalDialog">
+
+    <div id="simeulue" class="modalDialog">
         <div>	<a href="#close" title="Close" class="close">X</a>
             <div class="row">
                 <div class="col-8 col-sm-6">
@@ -545,110 +542,13 @@
         </div>
     </div>
     
+    
     <div class="navbar navbar-default navbar-fixed-bottom footer-bottom">
         <div class="container text-center">
             <p class="text-center">Copyright &copy; 2016,  DTC. Developed by <a href="https://ilmu-detil.blogspot.com/">Pusat Ilmu</a></p>
         </div>
     </div>
     <!-- Start 3D Chart -->
-    <script>
-        Highcharts.chart('chart1', {
-            chart: {
-                type: 'column',
-                options3d: {
-                    enabled: true,
-                    alpha: 10,
-                    beta: 25,
-                    depth: 70
-                },
-                backgroundColor:'rgba(255, 255, 255, 0.0)'
-            },
-            title: {
-                text: null
-            },
-            subtitle: {
-                text: null
-            },
-            plotOptions: {
-                column: {
-                    depth: 25
-                }
-            },
-            xAxis: {
-                categories: Highcharts.getOptions().lang.shortMonths,
-                labels: {
-                    skew3d: true,
-                    style: {
-                        fontSize: '16px'
-                    }
-                }
-            },
-            yAxis: {
-                title: {
-                    text: null
-                }
-            },
-            series: [{
-                showInLegend: false,    
-                name: 'Sales',
-                data: [2, 3, null, 4, 0, 5, 1, 4, 6, 3]
-            }]
-        });
-        
-    </script>
-    <!-- End 3D Chart -->
-    <!--Start Pie Chart -->
-    <script>
-        Highcharts.chart('chart2', {
-            chart: {
-                plotBackgroundColor: null,
-                plotBorderWidth: null,
-                plotShadow: false,
-                type: 'pie'
-            },
-            title: {
-                text: 'Browser market shares in January, 2018'
-            },
-            tooltip: {
-                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-            },
-            plotOptions: {
-                pie: {
-                    allowPointSelect: true,
-                    cursor: 'pointer',
-                    dataLabels: {
-                        enabled: false
-                    },
-                    showInLegend: true
-                }
-            },
-            series: [{
-                name: 'Brands',
-                colorByPoint: true,
-                data: [{
-                    name: 'Chrome',
-                    y: 61.41,
-                    sliced: true,
-                    selected: true
-                }, {
-                    name: 'Internet Explorer',
-                    y: 11.84
-                }, {
-                    name: 'Firefox',
-                    y: 10.85
-                }, {
-                    name: 'Edge',
-                    y: 4.67
-                }, {
-                    name: 'Safari',
-                    y: 4.18
-                }, {
-                    name: 'Other',
-                    y: 7.05
-                }]
-            }]
-        });
-    </script>
     <script>
         Highcharts.chart('chartmodal1', {
             chart: {

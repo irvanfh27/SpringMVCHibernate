@@ -16,7 +16,7 @@
             position: relative;
         }
         #container {
-            height: 600px; 
+            height: 500px; 
             min-width: 700px; 
             max-width: 1366px; 
             margin: 0 auto; 
@@ -47,7 +47,7 @@
             padding: 5px 20px 13px 20px;
             border-radius: 10px;
             background: transparent;
-   
+            
         }
         .close {
             background: #606061;
@@ -87,7 +87,7 @@
             {
                 // Aceh
                 "hc-key": "id-ac",
-                color: "red",
+                color: "#64dd17",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -99,7 +99,7 @@
             {
                 // Sumatera Utara
                 "hc-key": "id-su",
-                color: "darkgreen",
+                color: "#76ff03",
                 states: {
                     hover: {
                         color: '#BADA55'
@@ -111,7 +111,7 @@
             {
                 // Sumatera Barat
                 "hc-key": "id-sb",
-                color: "#42a5f5",
+                color: "#00e676",
                 "value": 4.84,
                 "detail": "sumbar.jsp"
             },
@@ -120,7 +120,7 @@
                 "hc-key": "id-ri",
                 "value": 5.54,
                 "detail": "riau.jsp",
-                color: "#0077c2"
+                color: "#ccff90"
                 
             },
             {
@@ -128,7 +128,7 @@
                 "hc-key": "id-kr",
                 "value": 1.69,
                 "detail": "kepriau.jsp",
-                color: "#fdd835"
+                color: "#00c853"
                 
             },
             {
@@ -159,7 +159,8 @@
                 // Bangka Belitung
                 "hc-key": "id-bb",
                 "value": 1.22,
-                "detail": "bangka.jsp"
+                "detail": "bangka.jsp",
+                color: "#1E88E5"
                 
                 
             },
@@ -167,84 +168,97 @@
                 // Lampung
                 "hc-key": "id-1024",
                 "value": 7.59,
-                "detail": "lampung.jsp"
+                "detail": "lampung.jsp",
+                color: "#00b0ff"
                 
             },
             {
                 // Banten
                 "hc-key": "id-bt",
                 "value": 10.54,
-                "detail": "banten.jsp"
+                "detail": "banten.jsp",
+                color: "#d500f9"
                 
             },
             {
                 // Jakarta
                 "hc-key": "id-jk",
                 "value": 9.59,
-                "detail": "jakarta.jsp"
+                "detail": "jakarta.jsp",
+                color: "#e040fb"
                 
             },
             {
                 // Jawa Barat
                 "hc-key": "id-jr",
                 "value": 43.02,
-                "detail": "jabar.jsp"
+                "detail": "jabar.jsp",
+                color: "#ba68c8"
                 
             },
             {
                 // Jawa Tengah
                 "hc-key": "id-jt",
                 "value": 32.38,
-                "detail": "jateng.jsp"
+                "detail": "jateng.jsp",
+                color: "#aa00ff"
+                
                 
             },
             {
                 // Jawa Timur
                 "hc-key": "id-ji",
                 "value": 37.47,
-                "detail": "jatim.jsp"
+                "detail": "jatim.jsp",
+                color: "#7c4dff"
                 
             },
             {
                 // Yogyakarta
                 "hc-key": "id-yo",
                 "value": 3.45,
-                "detail": "yogya.jsp"
+                "detail": "yogya.jsp",
+                color: "#ea80fc"
                 
             },
             {
                 // Bali
                 "hc-key": "id-ba",
                 "value": 3.89,
-                "detail": "bali.jsp"
+                "detail": "bali.jsp",
+                color: "#e1bee7"
                 
             },
             {
                 // Nusa Tenggara Barat
                 "hc-key": "id-nb",
                 "value": 4.49,
-                "detail": "ntb.jsp"
+                "detail": "ntb.jsp",
+                color: "#651fff"
                 
             },
             {
                 // Nusa Tenggara Timur
                 "hc-key": "id-nt",
                 "value": 4.68,
-                "detail": "ntt.jsp"
+                "detail": "ntt.jsp",
+                color: "#7c4dff"
                 
             },
             {
                 // Kalimantan Barat
                 "hc-key": "id-kb",
                 "value": 4.39,
-                "detail": "kalbar.jsp"
+                "detail": "kalbar.jsp",
+                color: "#aeea00"
                 
             },
             {
                 // Kalimantan Timur
                 "hc-key": "id-ki",
                 "value": 3.55,
-                "detail": "kaltim.jsp"
+                "detail": "kaltim.jsp",
+                color: "#c6ff00"
                 
                 
             },
@@ -252,86 +266,99 @@
                 // Kalimantan Tengah
                 "hc-key": "id-kt",
                 "value": 2.2,
-                "detail": "kalteng.jsp"
+                "detail": "kalteng.jsp",
+                color: "#eeff41"
+                
                 
             },
             {
                 // Kalimantan Selatan
                 "hc-key": "id-ks",
                 "value": 3.63,
-                "detail": "kalsel.jsp"
+                "detail": "kalsel.jsp",
+                color: "#f4ff81"
                 
             },
             {
                 // Sulawesi Utara
                 "hc-key": "id-sw",
                 "value": 2.26,
-                "detail": "sulut.jsp"
+                "detail": "sulut.jsp",
+                color : "#ffab00"
                 
             },
             {
                 // Sulawesi Tengah
                 "hc-key": "id-st",
                 "value": 2.63,
-                "detail": "sulteng.jsp"
+                "detail": "sulteng.jsp",
+                color : "#ffc400"
                 
             },
             {
                 // Gorontalo
                 "hc-key": "id-go",
                 "value": 1.04,
-                "detail": "gorontalo.jsp"
+                "detail": "gorontalo.jsp",
+                color :"#ffd740"
                 
             },
             {
                 // Sulawesi Barat
                 "hc-key": "id-sr",
                 "value": 1.16,
-                "detail": "sulbar.jsp"
+                "detail": "sulbar.jsp",
+                color : "#ffc107"
                 
             },
             {
                 // Sulawesi Selatan
                 "hc-key": "id-se",
                 "value": 8.03,
-                "detail": "sulsel.jsp"
+                "detail": "sulsel.jsp",
+                color: "#ffca28"
                 
             },
             {
                 // Sulawesi Tenggara
                 "hc-key": "id-sg",
                 "value": 22,
-                "detail": "sulteng.jsp"
+                "detail": "sulteng.jsp",
+                color : "#ffd54f"
                 
             },
             {
                 // Maluku Utara
                 "hc-key": "id-la",
-                "value": 1.03
+                "value": 1.03,
+                "detail" : "malukuutara.jsp",
+                color: "#00c853"
             },
             {
                 // Maluku
                 "hc-key": "id-ma",
                 "value": 1.53,
-                "detail": "maluku.jsp"
+                "detail": "maluku.jsp",
+                color : "#00e676"
                 
             },
             {
                 // Papua Barat
                 "hc-key": "id-ib",
                 "value": 0.76,
-                "detail": "papuabarat.jsp"
+                "detail": "papuabarat.jsp",
+                color: "#76ff03"
                 
             },
             {
                 // Papua
                 "hc-key": "id-pa",
                 "value": 2.85,
-                "detail": "papua.jsp"
+                "detail": "papua.jsp",
+                color : "#b2ff59"
                 
             }
             ];
-            
             // Initiate the chart
             $('#container').highcharts('Map', {
                 chart: {
@@ -462,7 +489,7 @@
                     lineWidth: 2,
                     radius: 3,
                     //symbol: 'url(http://localhost:8080/SpringMVCHibernate/resources/assets/css/images/officebuilding2.png)',
-                    symbol: 'url(resources/assets/css/images/officebuilding2.png)',
+                    symbol: 'url(assets/css/images/officebuilding2.png)',
                 },
                 //data: data,
                 data: [{
@@ -511,35 +538,33 @@
     
 </head>
 <body>
-   
+    
     <!-- <div id="mkr"><img src="resources/assets/css/images/officebuilding2.png" /></div> -->
     <div class="container-fluid" style="margin-top:7px">
         <!-- Maps -->
         <div id ="container"></div>
         <!-- Button Modal -->
-        <div class="bottom"> 
-                <div id="chartmodal1" style="min-width: 250px; height: 250px; max-width: 500px; margin: 0 auto"></div>
-        </div>
+        <!-- <div class="bottom"> 
+            <div id="chartmodal1" style="min-width: 250px; height: 250px; max-width: 500px; margin: 0 auto"></div>
+        </div> -->
     </div>
     <!-- Modal -->
-    <div id="openModal" class="modalDialog">
-        <div>	<a href="#close" title="Close" class="close">X</a>
-            <div class="row">
-                <div class="col-8 col-sm-6">
-                    <div id="chartmodal1" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
-                </div>
-                <div class="col-8 col-sm-6">
-                    <div id="charts" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
-                </div>
+    <div class="bottom">
+        <div class="row">
+            <div class="col-8 col-sm-6">
+                <div id="chartmodal1" style="min-width: 250px; height: 250px; max-width: 500px; margin: 0 auto"></div>
+            </div>
+            <div class="col-8 col-sm-6">
+                <div id="charts" style="min-width: 250px; height: 250px; max-width: 500px; margin: 0 auto"></div>
             </div>
         </div>
     </div>
     
-    <div class="navbar navbar-default navbar-fixed-bottom footer-bottom">
+    <!-- <div class="navbar navbar-default navbar-fixed-bottom footer-bottom">
         <div class="container text-center">
             <p class="text-center">Powered by HighCharts. Developed by <a href="http://www.insist.co.id">Inovasi Sistem Teknologi</a></p>
         </div>
-    </div>
+    </div> -->
     <!-- Start 3D Chart -->
     <script>
         Highcharts.chart('chartmodal1', {
@@ -554,7 +579,7 @@
                 backgroundColor:'rgba(255, 255, 255, 0.0)'
             },
             title: {
-                text: null
+                text: 'Jumlah PNS'
             },
             subtitle: {
                 text: null
@@ -565,7 +590,7 @@
                 }
             },
             xAxis: {
-                categories: Highcharts.getOptions().lang.shortMonths,
+                categories: ['20-30','31-40','41-50','51-60'] ,
                 labels: {
                     skew3d: true,
                     style: {
@@ -580,24 +605,26 @@
             },
             series: [{
                 showInLegend: false,    
-                name: 'Sales',
-                data: [2, 3, null, 4, 0, 5, 1, 4, 6, 3]
+                name: 'Jumlah PNS',
+                data: [46.101,131.481,137.771, 126.110]
             }]
         });
-      
+        
     </script>
     <!-- End 3D Chart -->
     <!--Start Pie Chart -->
     <script>
-      Highcharts.chart('charts', {
+        Highcharts.chart('charts', {
             chart: {
                 plotBackgroundColor: null,
                 plotBorderWidth: null,
                 plotShadow: false,
-                type: 'pie'
+                type: 'pie',
+                backgroundColor:'rgba(255, 255, 255, 0.0)'
+
             },
             title: {
-                text: 'Browser market shares in January, 2018'
+                text: null
             },
             tooltip: {
                 pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -607,9 +634,12 @@
                     allowPointSelect: true,
                     cursor: 'pointer',
                     dataLabels: {
-                        enabled: false
-                    },
-                    showInLegend: true
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        }
+                    }
                 }
             },
             series: [{
@@ -633,8 +663,17 @@
                     name: 'Safari',
                     y: 4.18
                 }, {
+                    name: 'Sogou Explorer',
+                    y: 1.64
+                }, {
+                    name: 'Opera',
+                    y: 1.6
+                }, {
+                    name: 'QQ',
+                    y: 1.2
+                }, {
                     name: 'Other',
-                    y: 7.05
+                    y: 2.61
                 }]
             }]
         });

@@ -159,7 +159,8 @@
                 // Bangka Belitung
                 "hc-key": "id-bb",
                 "value": 1.22,
-                "detail": "bangka.jsp"
+                "detail": "bangka.jsp",
+                color: "#1E88E5"
                 
                 
             },
@@ -167,84 +168,97 @@
                 // Lampung
                 "hc-key": "id-1024",
                 "value": 7.59,
-                "detail": "lampung.jsp"
+                "detail": "lampung.jsp",
+                color: "#00b0ff"
                 
             },
             {
                 // Banten
                 "hc-key": "id-bt",
                 "value": 10.54,
-                "detail": "banten.jsp"
+                "detail": "banten.jsp",
+                color: "#d500f9"
                 
             },
             {
                 // Jakarta
                 "hc-key": "id-jk",
                 "value": 9.59,
-                "detail": "jakarta.jsp"
+                "detail": "jakarta.jsp",
+                color: "#e040fb"
                 
             },
             {
                 // Jawa Barat
                 "hc-key": "id-jr",
                 "value": 43.02,
-                "detail": "jabar.jsp"
+                "detail": "jabar.jsp",
+                color: "#ba68c8"
                 
             },
             {
                 // Jawa Tengah
                 "hc-key": "id-jt",
                 "value": 32.38,
-                "detail": "jateng.jsp"
+                "detail": "jateng.jsp",
+                color: "#aa00ff"
+
                 
             },
             {
                 // Jawa Timur
                 "hc-key": "id-ji",
                 "value": 37.47,
-                "detail": "jatim.jsp"
+                "detail": "jatim.jsp",
+                color: "#7c4dff"
                 
             },
             {
                 // Yogyakarta
                 "hc-key": "id-yo",
                 "value": 3.45,
-                "detail": "yogya.jsp"
+                "detail": "yogya.jsp",
+                color: "#ea80fc"
                 
             },
             {
                 // Bali
                 "hc-key": "id-ba",
                 "value": 3.89,
-                "detail": "bali.jsp"
+                "detail": "bali.jsp",
+                color: "#e1bee7"
                 
             },
             {
                 // Nusa Tenggara Barat
                 "hc-key": "id-nb",
                 "value": 4.49,
-                "detail": "ntb.jsp"
+                "detail": "ntb.jsp",
+                color: "#651fff"
                 
             },
             {
                 // Nusa Tenggara Timur
                 "hc-key": "id-nt",
                 "value": 4.68,
-                "detail": "ntt.jsp"
+                "detail": "ntt.jsp",
+                color: "#7c4dff"
                 
             },
             {
                 // Kalimantan Barat
                 "hc-key": "id-kb",
                 "value": 4.39,
-                "detail": "kalbar.jsp"
+                "detail": "kalbar.jsp",
+                color: "#aeea00"
                 
             },
             {
                 // Kalimantan Timur
                 "hc-key": "id-ki",
                 "value": 3.55,
-                "detail": "kaltim.jsp"
+                "detail": "kaltim.jsp",
+                color: "#c6ff00"
                 
                 
             },
@@ -252,82 +266,96 @@
                 // Kalimantan Tengah
                 "hc-key": "id-kt",
                 "value": 2.2,
-                "detail": "kalteng.jsp"
+                "detail": "kalteng.jsp",
+                color: "#eeff41"
+
                 
             },
             {
                 // Kalimantan Selatan
                 "hc-key": "id-ks",
                 "value": 3.63,
-                "detail": "kalsel.jsp"
+                "detail": "kalsel.jsp",
+                color: "#f4ff81"
                 
             },
             {
                 // Sulawesi Utara
                 "hc-key": "id-sw",
                 "value": 2.26,
-                "detail": "sulut.jsp"
+                "detail": "sulut.jsp",
+                color : "#ffab00"
                 
             },
             {
                 // Sulawesi Tengah
                 "hc-key": "id-st",
                 "value": 2.63,
-                "detail": "sulteng.jsp"
+                "detail": "sulteng.jsp",
+                color : "#ffc400"
                 
             },
             {
                 // Gorontalo
                 "hc-key": "id-go",
                 "value": 1.04,
-                "detail": "gorontalo.jsp"
+                "detail": "gorontalo.jsp",
+                color :"#ffd740"
                 
             },
             {
                 // Sulawesi Barat
                 "hc-key": "id-sr",
                 "value": 1.16,
-                "detail": "sulbar.jsp"
+                "detail": "sulbar.jsp",
+                color : "#ffc107"
                 
             },
             {
                 // Sulawesi Selatan
                 "hc-key": "id-se",
                 "value": 8.03,
-                "detail": "sulsel.jsp"
+                "detail": "sulsel.jsp",
+                color: "#ffca28"
                 
             },
             {
                 // Sulawesi Tenggara
                 "hc-key": "id-sg",
                 "value": 22,
-                "detail": "sulteng.jsp"
+                "detail": "sulteng.jsp",
+                color : "#ffd54f"
                 
             },
             {
                 // Maluku Utara
                 "hc-key": "id-la",
-                "value": 1.03
+                "value": 1.03,
+                "detail" : "malukuutara.jsp",
+                color: "#00c853"
             },
             {
                 // Maluku
                 "hc-key": "id-ma",
                 "value": 1.53,
-                "detail": "maluku.jsp"
+                "detail": "maluku.jsp",
+                color : "#00e676"
                 
             },
             {
                 // Papua Barat
                 "hc-key": "id-ib",
                 "value": 0.76,
-                "detail": "papuabarat.jsp"
+                "detail": "papuabarat.jsp",
+                color: "#76ff03"
                 
             },
             {
                 // Papua
                 "hc-key": "id-pa",
                 "value": 2.85,
-                "detail": "papua.jsp"
+                "detail": "papua.jsp",
+                color : "#b2ff59"
                 
             }
             ];
@@ -537,11 +565,11 @@
         </div>
     </div>
     
-    <div class="navbar navbar-default navbar-fixed-bottom footer-bottom">
+    <!-- <div class="navbar navbar-default navbar-fixed-bottom footer-bottom">
         <div class="container text-center">
             <p class="text-center">Powered by HighCharts. Developed by <a href="http://www.insist.co.id">Inovasi Sistem Teknologi</a></p>
         </div>
-    </div>
+    </div> -->
     <!-- Start 3D Chart -->
     <script>
         Highcharts.chart('chartmodal1', {
